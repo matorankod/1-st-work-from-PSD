@@ -1,0 +1,86 @@
+body{
+    width: 600px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.logo{
+    background-color: orange;
+    color: white;
+    height: 100px;
+}
+
+.head-bar .title, .head-bar .subtitle{
+    text-align: center;
+}
+
+.head-bar .image{
+    height: 300px;
+    width:500px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.head-bar img{
+    position: relative;
+    top: -100px;
+}
+
+.head-bar .title{
+    color: orange;
+    text-transform: uppercase;
+}
+
+.news-bar{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.news-bar .title{
+    text-transform: uppercase;
+}
+
+.article img {
+    width: 250px;
+}
+.article .image{
+    float: left;
+    height: 200px;
+    width: 250px;
+    overflow: hidden;
+}
+.article:nth-of-type(2n-1) .image{
+    float: right;
+}
+
+.article {
+    height: 200px;
+    position: relative;
+}
+.article .text{
+    position: absolute;
+    bottom: 0;
+    left: 250px;
+}
+.article:nth-of-type(2n-1) .text{
+    left: 0;
+    right: 250px;
+}
+.article:nth-child(2n-1) button{
+    float: right;
+}
+
+.media-bar{
+    background-color: orange;
+    height: 100px;
+    text-align: center;
+}
+
+.media-bar p{
+    text-align: center;
+}
+.media-bar .icons img{
+    width: 30px;
+}
+.foot-bar{
+    text-align: justify;
+}
